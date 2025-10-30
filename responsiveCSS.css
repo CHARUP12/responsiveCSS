@@ -58,8 +58,28 @@ body {
 	width: 200px;
 	margin: 2px;
 	
+}
+
+.grid {
+	background: black;
+	display: grid;
+	grid-template-columns: 200px 400px 200px;
+	grid-template-rows: 400px 200px 200px;
+	gap: 10px;
+	padding: 10px;
 	
 }
+
+.grid p {
+	height: 100%;
+	background: white;
+}
+
+.one {
+	grid-area: 1/1/2/3;
+}
+
+
 
 
 @media (max-width: 500px){
